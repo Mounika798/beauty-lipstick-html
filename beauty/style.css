@@ -1,0 +1,59 @@
+/* Reset some default styling */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+   
+}
+
+body {
+    background-color:rgb(107, 5, 5);
+    color:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+    box-shadow: 10px 10px 10px blanchedalmond;
+}
+
+.container {
+    text-align: center;
+}
+
+.main-title {
+    margin-bottom: 1px;
+    font-size: 2.5em;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    height: 600px;
+}
+
+.box {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 8px;
+    width: 200px;
+    box-shadow: 10px 10px 10px black;
+}
+
+.box img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.box p {
+    margin-top: 10px;
+    font-size: 1em;
+}
+body h2{
+    color: bisque;
+    font-variant-position: normal;
+}
